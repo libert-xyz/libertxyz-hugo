@@ -1,0 +1,13 @@
+baseurl = "https://libert.xyz"
+title = "Cloud and DevOps"
+languageCode = "en-us"
+disqusShortname = "spf13"
+copyright = "Copyright (c) 2017, Libert R Schmidt; all rights reserved."
+MetaDataFormat = "yaml"
+
+[author]
+    name = "Libert R Schmidt"
+
+[indexes]
+    tag = "tags"
+    topic = "topics"
