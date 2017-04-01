@@ -7,24 +7,6 @@
   <h1 itemprop="name" id="title">{{ .Title }}</h1>
 
 
-  <!-- <div>
-      <section id="datecount">
-        <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
-        <h5 id="wc"> {{ .FuzzyWordCount }} Words </h5>
-        <h5 id="readtime"> Read in about {{ .ReadingTime }} Min </h5>
-      </section>
-      <ul id="categories">
-        {{ range .Params.topics }}
-          <li><a href="{{ $baseurl }}/topics/{{ . | urlize }}">{{ . }}</a> </li>
-        {{ end }}
-      </ul>
-      <ul id="tags">
-        {{ range .Params.tags }}
-          <li> <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a> </li>
-        {{ end }}
-      </ul>
-  </div> -->
-
   <div><h4>{{ .Date.Format "Mon, Jan 2, 2006" }}</h4>
     <ul id="tags">
       {{ range .Params.tags }}

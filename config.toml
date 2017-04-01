@@ -1,7 +1,7 @@
 baseurl = "https://libert.xyz"
-title = "Cloud and DevOps"
+title = "So it goes"
 languageCode = "en-us"
-disqusShortname = "spf13"
+disqusShortname = "httplibertxyz"
 copyright = "Copyright (c) 2017, Libert R Schmidt; all rights reserved."
 MetaDataFormat = "yaml"
 
